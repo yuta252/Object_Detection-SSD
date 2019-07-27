@@ -17,8 +17,8 @@ import numpy as np
 
 batch_size = 12
 gpu = True
-lr_ = 5e-4
-weight_decay = 5e-4
+lr_ = 5e-5
+weight_decay = 5e-5
 gamma_ = 0.1
 
 if torch.cuda.is_available():
